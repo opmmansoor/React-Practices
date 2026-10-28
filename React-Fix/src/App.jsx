@@ -1,6 +1,7 @@
 import Counter from './Components/Counter'
 import BoxColor from './Components/BoxColor'
 import ShowHideTOggle from './Components/Show&HideTOggle'
+import Form from './Components/Form'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Counter/>
       <BoxColor /> 
       <ShowHideTOggle />
+      <Form />
       
     </div>
   )
