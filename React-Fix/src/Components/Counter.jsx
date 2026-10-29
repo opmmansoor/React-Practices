@@ -9,7 +9,7 @@ function Counter() {
      <div>
        <div>
  {/* Counte App */}
-         <button onClick={() => setCount ((count) => count + 1)}
+         <button onClick={() => setCount ( count + 1)}
                  style={{width:"100px", height: "40px", backgroundColor: "greenyellow", margin:"20px"}}>
            Plus {count}
          </button>
@@ -19,7 +19,7 @@ function Counter() {
            Reset {count}
          </button>
  
-         <button onClick={() => setMin ((min) => min - 1)}
+         <button onClick={() => setMin ( min - 1)}
                  style={{width:"100px", height: "40px", backgroundColor: "royalblue", margin:"20px"}}>
            Minus {min}
          </button>
