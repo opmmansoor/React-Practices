@@ -5,6 +5,7 @@ import Form from './Components/Form'
 import Calculator from './Components/Calculator'
 import SelectOption from './Components/SelectOption'
 import Todo from './Components/Todo'
+import Pagination from './Components/Pagination'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Calculator />
       <SelectOption />
       <Todo />
+      <Pagination />
     </div>
   )
 }
