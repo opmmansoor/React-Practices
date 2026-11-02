@@ -6,6 +6,7 @@ import Calculator from './Components/Calculator'
 import SelectOption from './Components/SelectOption'
 import Todo from './Components/Todo'
 import Pagination from './Components/Pagination'
+import PaginationDynamic from './Components/PaginationDynamic'
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       <SelectOption />
       <Todo />
       <Pagination />
+      <PaginationDynamic />
+
     </div>
   )
 }
