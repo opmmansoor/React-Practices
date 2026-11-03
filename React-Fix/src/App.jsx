@@ -7,6 +7,7 @@ import SelectOption from './Components/SelectOption'
 import Todo from './Components/Todo'
 import Pagination from './Components/Pagination'
 import PaginationDynamic from './Components/PaginationDynamic'
+import GridLigth from './Components/GridLigth'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Todo />
       <Pagination />
       <PaginationDynamic />
+      <GridLigth />
 
     </div>
   )

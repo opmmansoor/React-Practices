@@ -36,7 +36,7 @@ function PaginationDynamic  () {
             <h2>Animal Pagination</h2>
 
 {/* Dynamic page size */}
-            {/* <label> Items Per page </label>
+            <label> Items Per page </label>
 
             <select value={pageSize}
                     onChange={(e) => {
@@ -48,7 +48,7 @@ function PaginationDynamic  () {
                 <option value={3}>3</option>
                 <option value={5}>5</option>
                 <option value={10}>10</option>
-            </select> */}
+            </select>
 
             <ul>
                 {paginatedAnimals.map((item,index) => (
