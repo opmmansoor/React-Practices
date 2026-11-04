@@ -8,6 +8,7 @@ import Todo from './Components/Todo'
 import Pagination from './Components/Pagination'
 import PaginationDynamic from './Components/PaginationDynamic'
 import GridLigth from './Components/GridLigth'
+import Hooks from './Components/Hooks'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
       <Pagination />
       <PaginationDynamic />
       <GridLigth />
-
+      <Hooks /> 
+      
     </div>
   )
 }
