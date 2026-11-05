@@ -10,6 +10,7 @@ import PaginationDynamic from './Components/PaginationDynamic'
 import GridLigth from './Components/GridLigth'
 import Hooks from './Components/Hooks'
 import HookReducer from './Components/HookReducer'
+import Router from './Components/Router'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <GridLigth />
       <Hooks /> 
       <HookReducer />
+      <Router />
 
     </div>
   )
