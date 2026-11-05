@@ -1,9 +1,15 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { createContext, useContext, useEffect, useRef, useState } from 'react'
 
+ const ThemeContest = createContext("ligth");
 
+ function Child() {
+  const theme = useContext(ThemeContest);
+  return <p>Theme: {theme}</p>
+ }
 
 
 function Hooks() {
+ 
 //use State()
   const [name, setName] = useState("Mansoor");
 
@@ -24,6 +30,15 @@ function Hooks() {
      
   return (
     <>
+    {/* useContext() */}
+    <div>
+  <ThemeContest.Provider value='dark' >
+    <Child />
+  </ThemeContest.Provider>
+    </div>
+
+
+
     <div>
       use State()
       <h1> {name}</h1>
@@ -31,6 +46,7 @@ function Hooks() {
         Change Name
       </button>
     </div>
+
 
     <div>
       <h1></h1>
@@ -41,6 +57,7 @@ function Hooks() {
         Count: {count }
       </button>
     </div>
+    
 
     <div>
       <input ref={inputRef} />

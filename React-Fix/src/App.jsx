@@ -9,6 +9,7 @@ import Pagination from './Components/Pagination'
 import PaginationDynamic from './Components/PaginationDynamic'
 import GridLigth from './Components/GridLigth'
 import Hooks from './Components/Hooks'
+import HookReducer from './Components/HookReducer'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
       <PaginationDynamic />
       <GridLigth />
       <Hooks /> 
-      
+      <HookReducer />
+
     </div>
   )
 }
