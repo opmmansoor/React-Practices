@@ -12,6 +12,7 @@ import Hooks from './Components/Hooks'
 import HookReducer from './Components/HookReducer'
 import Router from './Components/Router'
 import Filter from './Components/Filter'
+import Search from './Components/Search'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
       <HookReducer />
       <Router />
       <Filter />
+      <Search />
 
     </div>
   )
