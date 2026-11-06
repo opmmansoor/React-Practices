@@ -11,6 +11,7 @@ import GridLigth from './Components/GridLigth'
 import Hooks from './Components/Hooks'
 import HookReducer from './Components/HookReducer'
 import Router from './Components/Router'
+import Filter from './Components/Filter'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Hooks /> 
       <HookReducer />
       <Router />
+      <Filter />
 
     </div>
   )
