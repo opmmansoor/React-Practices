@@ -52,12 +52,12 @@ function Hooks() {
       <h1></h1>
     </div>
     <div>
-      useEffect();
+  //useEffect();
       <button onClick={() => setCount(count + 1)}>
         Count: {count }
       </button>
     </div>
-    
+
 
     <div>
       <input ref={inputRef} />

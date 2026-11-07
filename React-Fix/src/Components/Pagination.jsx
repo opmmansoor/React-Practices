@@ -8,6 +8,7 @@ function Pagination() {
     "lion",
     "tiger",
     "puma",
+    "goat",
     "leopard",
     "zebra",
     "horse",
@@ -23,7 +24,7 @@ function Pagination() {
     (page - 1) * PAGE_SIZE,
     page * PAGE_SIZE,
   );
-  console.log(paginatedAnimals);
+  
   return (
     <div>
       <ul>

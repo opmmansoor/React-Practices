@@ -35,10 +35,6 @@ function Form() {
         }
     }
 
-
-
-
-
   return (
     <div >
         <form onSubmit={handleSubmit}>
